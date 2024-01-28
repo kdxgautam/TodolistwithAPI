@@ -1,6 +1,6 @@
 const express = require("express")
-const router = express.Router()
-const todoModel = require('../../../models/todomodel')
+const router = express.Router()  //we are getting router portion of express
+const todoModel = require('../../../models/todomodel')  //calls our todoModel which we created in model file
 const { getAllTodos, getOneTodos, postTodo, patchTodo, deleteTodo } = require("../../../controlers/todos")
 
 //getting all
@@ -75,3 +75,4 @@ async function getTodo(req,res,next){
 
 
 module.exports = router;
+//exporting router

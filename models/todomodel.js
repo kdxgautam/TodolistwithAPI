@@ -17,3 +17,5 @@ const todoSchema = new mongoose.Schema({
 })
 
 module.exports = mongoose.model('todoModel', todoSchema)
+//todoModel is name of model in database  //todoSchema is name of schema corrospoding to that model
+//when we import this in a different file the model function allows us to directly interact with database using this schema
