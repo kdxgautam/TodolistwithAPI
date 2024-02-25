@@ -1,3 +1,12 @@
+
+//npm init
+//npm i express mongoose
+//npm i --save-dev dotenv nodemon
+//in package.json scripts add --> "dev":"nodemon index.js",
+
+
+
+
 require('dotenv').config()
 const express = require('express')
 const app = express()
